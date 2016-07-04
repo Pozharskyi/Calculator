@@ -1,0 +1,20 @@
+{
+  "name": "Pozharskyi/Calculator",
+  "description": "The fourth homework",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "require": {
+    "php": ">=7.0"
+  },
+  "authors": [
+    {
+      "name": "Pozharskyi Ivan",
+      "email": "Pozharskyi@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Calculator\\": "src/Calculator"
+    }
+  }
+}

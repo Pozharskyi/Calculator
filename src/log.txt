@@ -1,0 +1,28 @@
+Date: 2016-07-04 15:28:16  operator: add operands: 2 3  result: 5
+Date: 2016-07-04 15:28:16  operator: sub operands: 9 12  result: -3
+Date: 2016-07-04 15:28:16  operator: div operands: 5 8  result: 0
+Date: 2016-07-04 15:28:16  operator: mult operands: 4 7  result: 28
+Date: 2016-07-04 15:28:16  operator: exp operands: 3  result: 8
+Date: 2016-07-04 15:29:26 Argument 2 passed to Calculator\Calculator::add() must be of the type integer, string given, called in C:\Users\root\PhpstormProjects\Calculator\src\Runner.php on line 27
+Date: 2016-07-04 15:30:22 Argument 1 passed to Calculator\Calculator::sub() must be of the type integer, float given, called in C:\Users\root\PhpstormProjects\Calculator\src\Runner.php on line 28
+Date: 2016-07-04 15:31:19 Argument 1 passed to Calculator\Calculator::div() must be of the type integer, float given, called in C:\Users\root\PhpstormProjects\Calculator\src\Runner.php on line 29
+Date: 2016-07-04 15:31:48  operator: mult operands: 2147483647 2  result: 4294967294
+Date: 2016-07-04 15:31:48 Return value of Calculator\Calculator::mult() must be of the type integer, float returned
+Date: 2016-07-04 15:32:55  operator: mult operands: 2147483647 2  result: 4294967294
+Date: 2016-07-04 15:32:55 Return value of Calculator\Calculator::mult() must be of the type integer, float returned
+Date: 2016-07-04 15:33:17  operator: exp operands: 2147483647  result: INF
+Date: 2016-07-04 15:33:17 Return value of Calculator\Calculator::exp() must be of the type integer, float returned
+Date: 2016-07-04 15:50:19  operator: add operands: 2 3  result: 5
+Date: 2016-07-04 15:50:19  operator: sub operands: 9 12  result: -3
+Date: 2016-07-04 15:50:19  operator: div operands: 5 8  result: 0
+Date: 2016-07-04 15:50:19  operator: mult operands: 4 7  result: 28
+Date: 2016-07-04 15:50:19  operator: exp operands: 3  result: 8
+Date: 2016-07-04 15:50:19  operator: add operands: 1 2147483647  result: 2147483648
+Date: 2016-07-04 15:50:19 Return value of Calculator\Calculator::add() must be of the type integer, float returned
+Date: 2016-07-04 15:50:19 Argument 2 passed to Calculator\Calculator::sub() must be of the type integer, boolean given, called in C:\Users\root\PhpstormProjects\Calculator\src\Runner.php on line 39
+Date: 2016-07-04 15:50:19  operator: mult operands: 2147483647 2  result: 4294967294
+Date: 2016-07-04 15:50:19 Return value of Calculator\Calculator::mult() must be of the type integer, float returned
+Date: 2016-07-04 15:50:19 Division by zeroDate: 2016-07-04 15:50:19  operator: div operands: 3 0  result: 
+Date: 2016-07-04 15:50:19 Return value of Calculator\Calculator::div() must be of the type integer, null returned
+Date: 2016-07-04 15:50:19  operator: exp operands: 2147483647  result: INF
+Date: 2016-07-04 15:50:19 Return value of Calculator\Calculator::exp() must be of the type integer, float returned
